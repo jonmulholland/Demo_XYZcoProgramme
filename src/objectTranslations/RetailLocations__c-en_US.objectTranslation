@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Retail Location</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Retail Locations</value>
+    </caseValues>
+    <fields>
+        <help><!-- Account for this retailer. --></help>
+        <label><!-- Retailer Account --></label>
+        <name>RetailerAccount__c</name>
+        <relationshipLabel><!-- Retail Locations --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Retail Location</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Assign Booyah</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Booyah</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Description</field>
+                <operation>contains</operation>
+                <value>Booyah</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Awesome Admin Assignment</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Security_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1</booleanFilter>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>contains</operation>
+                <value>Lost Card</value>
+            </criteriaItems>
+            <team>Platinum Support Team</team>
+            <template>unfiled$public/SupportCaseAssignmentNotification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>jonathan.mulholland@gmail.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Contact.Title</field>
+                <operation>equals</operation>
+                <value>Awesome Admin</value>
+            </criteriaItems>
+            <template>unfiled$public/SupportCaseAssignmentNotification</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>
