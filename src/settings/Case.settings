@@ -9,35 +9,14 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>jonathan.mulholland@gmail.com</defaultCaseOwner>
+    <defaultCaseOwner>jonathan.mulholland+xyzco@gmail.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>jonathan.mulholland@gmail.com</defaultCaseUser>
+    <defaultCaseUser>jonathan.mulholland+xyzco@gmail.com</defaultCaseUser>
     <emailToCase>
-        <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>true</enableHtmlEmail>
-        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
-        <enableThreadIDInBody>true</enableThreadIDInBody>
-        <enableThreadIDInSubject>true</enableThreadIDInSubject>
-        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
-        <overEmailLimitAction>Bounce</overEmailLimitAction>
-        <preQuoteSignature>false</preQuoteSignature>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>jonathan.mulholland+cases@gmail.com</emailAddress>
-            <emailServicesAddress>jonathan.mulholland+cases@2hpw2di5eyt2wry0q80gm9rpvv2zf2rqftafsm6idfjvduewz4.24-hnqxeak.eu5.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Email support</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+        <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
-    <enableDraftEmails>false</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
-    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>

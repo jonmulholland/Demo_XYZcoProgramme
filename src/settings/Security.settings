@@ -27,7 +27,7 @@
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
         <forceRelogin>true</forceRelogin>
-        <lockSessionsToDomain>false</lockSessionsToDomain>
+        <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
         <securityCentralKillSession>true</securityCentralKillSession>
     </sessionSettings>

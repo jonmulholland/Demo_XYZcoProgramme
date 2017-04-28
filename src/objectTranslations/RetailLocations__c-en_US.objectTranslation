@@ -15,7 +15,7 @@
         <relationshipLabel><!-- Retail Locations --></relationshipLabel>
     </fields>
     <layouts>
-        <layout>Retail Location</layout>
+        <layout>Retail Location Layout</layout>
         <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
